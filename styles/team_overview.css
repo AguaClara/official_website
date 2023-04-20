@@ -4,6 +4,23 @@
     flex-direction: row;
     margin:40px;
   }
+
+  .leads-image {
+    background-image: url("../images/leadership/teamleadership/banner.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.leads-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
   
   
   #about_Monroe_text{
