@@ -42,13 +42,13 @@
   }
   
   .LR_txt{
-    line-height: 30px;
-    padding-top:30px;
-    padding-left:20%;
-    padding-right:20%;
-    padding-bottom:30px;
-    color:black;
-    opacity: .75;
+    /* line-height: 30px; */
+    /* padding-top:30px; */
+    /* padding-left:10%; */
+    /* padding-right:10%; */
+    /* padding-bottom:30px; */
+    /* color:black; */
+    opacity: 1;
   }
   .LR_team_members li{
     padding:20px;
@@ -63,4 +63,43 @@
   #LR_team7, #LR_team8, #LR_team9, #LR_team10, #LR_team11, #LR_team12{
     cursor:pointer;
     text-align: center;
+  }
+
+  #floc_filtration_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    opacity: 1;
+    /* padding-left: 10%;
+    padding-right:10%; */
+  }
+
+  .about_member{
+    width: 300px;
+    height: 300px;
+  }
+
+  #dom_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    opacity: 1;
+  }
+
+  #mbfr_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    opacity: 1;
+  }
+
+  #uasb_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    opacity: 1;
   }

@@ -39,12 +39,12 @@
   }
   
   .AA_txt{
-    line-height: 30px;
-    padding-top:30px;
-    padding-left:20%;
-    padding-right:20%;
-    padding-bottom:30px;
-    color: black;
+    /* line-height: 30px; */
+    /* padding-top:30px; */
+    /* padding-left:20%; */
+    /* padding-right:20%; */
+    /* padding-bottom:30px; */
+    /* color: black; */
     opacity: 1;
   }
   .AA_team_members li{
@@ -60,6 +60,35 @@
     margin-top: 1px;
     margin-bottom: 1px;
     border-color: #FFFFFF;
+  }
+
+  .about_member{
+    width: 300px;
+    height: 300px;
+  }
+
+  #post_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    opacity: 1;
+  }
+
+  #floc_app_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    opacity: 1;
+  }
+
+  #procoda_python_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    opacity: 1;
   }
 
   /*Apps and Algorithms Page End*/
